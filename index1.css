@@ -1,637 +1,729 @@
 .slider {
-    width: 100%;
-    height: 360px;
-    overflow: hidden;
-    margin-top: 20px;
+  width: 100%;
+  height: 360px;
+  overflow: hidden;
+  margin-top: 20px;
 }
 
 .slider .center {
-    width: 1024px;
-    height: 360px;
-    margin: 0 auto;
+  width: 1024px;
+  height: 360px;
+  margin: 0 auto;
 }
 
 .slider .center .right {
-    width: 780px;
-    height: 360px;
-    float: right;
+  width: 780px;
+  height: 360px;
+  float: right;
 }
 
 .slider .center .right .slider-box {
-    width: 780px;
-    height: 280px;
-    overflow: hidden;
+  width: 780px;
+  height: 280px;
+  overflow: hidden;
 }
 
 .slider .center .right .slider-box .btns {
-    width: 200px;
-    height: 280px;
-    float: right;
+  width: 200px;
+  height: 280px;
+  float: right;
 }
 
 .center .right .slider-box .btns .btn-item {
-    width: 198px;
-    height: 69px;
-    border-bottom: 1px solid #f4f4f4;
-    background-color: #fff;
-    border-right: 2px solid #ccc;
-    overflow: hidden;
-    position: relative;
-    cursor: pointer;
-    opacity: 0.8;
-    transition: 500ms;
+  width: 198px;
+  height: 69px;
+  border-bottom: 1px solid #f4f4f4;
+  background-color: #fff;
+  border-right: 2px solid #ccc;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 500ms;
 }
 
 .center .right .slider-box .btns .btn-item:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .center .right .slider-box .btns .btn-item:first-child {
-    border-top: 1px solid #f4f4f4;
+  border-top: 1px solid #f4f4f4;
 }
 
 .center .right .slider-box .btns .btn-item::after {
-    content: "";
-    width: 12px;
-    height: 21px;
-    background: url(./image/flash.png) no-repeat;
-    position: absolute;
-    top: 24px;
-    left: 15px;
+  content: "";
+  width: 12px;
+  height: 21px;
+  background: url(./image/flash.png) no-repeat;
+  position: absolute;
+  top: 24px;
+  left: 15px;
 }
 
 .center .right .slider-box .btns .active {
-    width: 195px;
-    border-right: 5px solid #27bec4;
-    opacity: 1;
+  width: 195px;
+  border-right: 5px solid #27bec4;
+  opacity: 1;
 }
 
 .center .right .slider-box .btns .active::after {
-    content: "";
-    width: 12px;
-    height: 21px;
-    background: url(./image/flashactive1.png) no-repeat;
-    position: absolute;
-    top: 24px;
-    left: 15px;
+  content: "";
+  width: 12px;
+  height: 21px;
+  background: url(./image/flashactive1.png) no-repeat;
+  position: absolute;
+  top: 24px;
+  left: 15px;
 }
 
 .center .right .slider-box .btns .btn-item h5 {
-    color: #27bec4;
-    font-size: 14px;
-    margin: 12px 10px 0 0;
+  color: #27bec4;
+  font-size: 14px;
+  margin: 12px 10px 0 0;
 }
 
 .center .right .slider-box .btns .btn-item h6 {
-    color: #b9b9b9;
-    font-size: 12px;
-    font-weight: normal;
-    margin-right: 10px;
+  color: #b9b9b9;
+  font-size: 12px;
+  font-weight: normal;
+  margin-right: 10px;
 }
 
 .slider .center .right .slider-box .imgs {
-    width: 580px;
-    height: 280px;
-    float: right;
+  width: 580px;
+  height: 280px;
+  float: right;
 }
 
 .center .right .slider-box .imgs .img-item {
-    width: 580px;
-    height: 280px;
+  width: 580px;
+  height: 280px;
 }
 
 .center .right .slider-box .imgs .img-item img {
-    width: 580px;
-    height: 280px;
+  width: 580px;
+  height: 280px;
 }
 
 .slider .center .right .levels {
-    width: 780px;
-    height: 58px;
-    float: right;
-    border: 1px solid #d3d1d1;
-    margin-top: 20px;
-    background-color: #fff;
+  width: 780px;
+  height: 58px;
+  float: right;
+  border: 1px solid #d3d1d1;
+  margin-top: 20px;
+  background-color: #fff;
 }
 
 .slider .center .right .levels ul {
-    list-style: none;
+  list-style: none;
 }
 
 .slider .center .right .levels ul li {
-    width: 260px;
-    height: 60px;
-    width: 33%;
-    float: right;
-    position: relative;
+  width: 260px;
+  height: 60px;
+  width: 33%;
+  float: right;
+  position: relative;
 }
 
 .slider .center .right .levels ul li::after {
-    content: "";
-    width: 1px;
-    height: 38px;
-    background-color: #c6c3c8;
-    position: absolute;
-    top: 10px;
-    left: 0px;
+  content: "";
+  width: 1px;
+  height: 38px;
+  background-color: #c6c3c8;
+  position: absolute;
+  top: 10px;
+  left: 0px;
 }
 
 .slider .center .right .levels ul li:last-child:after {
-    display: none;
+  display: none;
 }
 
 .slider .center .right .levels ul li i.icon-gift {
-    width: 36px;
-    height: 32px;
-    float: right;
-    background: url(./image/GIFT.png) no-repeat;
-    margin: 12px 10px;
-
+  width: 36px;
+  height: 32px;
+  float: right;
+  background: url(./image/GIFT.png) no-repeat;
+  margin: 12px 10px;
 }
 
 .slider .center .right .levels ul li i.icon-pay {
-    width: 36px;
-    height: 32px;
-    float: right;
-    background: url(./image/pay.png) no-repeat;
-    margin: 12px 10px;
+  width: 36px;
+  height: 32px;
+  float: right;
+  background: url(./image/pay.png) no-repeat;
+  margin: 12px 10px;
 }
 
 .slider .center .right .levels ul li i.icon-check {
-    width: 32px;
-    height: 32px;
-    float: right;
-    background: url(./image/check.png) no-repeat;
-    margin: 12px 10px;
+  width: 32px;
+  height: 32px;
+  float: right;
+  background: url(./image/check.png) no-repeat;
+  margin: 12px 10px;
 }
 
 .slider .center .right .levels ul li h5 {
-    width: 184px;
-    float: right;
-    margin-top: 12px;
-    font-size: 12px;
-    color: #8f8e90;
+  width: 184px;
+  float: right;
+  margin-top: 12px;
+  font-size: 12px;
+  color: #8f8e90;
 }
 
 .slider .center .right .levels ul li p {
-    width: 184px;
-    float: right;
-    font-size: 10px;
+  width: 184px;
+  float: right;
+  font-size: 10px;
 }
 
 .slider .center .left {
-    width: 244px;
-    height: 360px;
-    float: right;
-
+  width: 244px;
+  height: 360px;
+  float: right;
 }
 
 .slider .center .left .ads {
-    width: 204px;
-    height: 102px;
-    margin-right: 10px;
-    margin-bottom: 8px;
-    border: 1px solid #dedbdb;
+  width: 204px;
+  height: 102px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  border: 1px solid #dedbdb;
 }
 
 .slider .center .left .ads a {
-    transition: 500ms;
-    cursor: pointer;
-    opacity: 0.7;
+  transition: 500ms;
+  cursor: pointer;
+  opacity: 0.7;
 }
 
 .slider .center .left .ads:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
-.slider .center .left .ads a img {}
+.slider .center .left .ads a img {
+}
 
 .slider .center .left .newslatter {
-    width: 204px;
-    height: 156px;
-    margin-right: 10px;
-    background-color: #27bec4;
-
+  width: 204px;
+  height: 156px;
+  margin-right: 10px;
+  background-color: #27bec4;
 }
 
 .slider .center .left .newslatter img {
-    margin: 5 50 5 50;
+  margin: 5 50 5 50;
 }
 
 .slider .center .left .newslatter p {
-    color: white;
-    font-size: 10px;
-    text-align: center;
-    margin: 3 7 3 7;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  margin: 3 7 3 7;
 }
 
 .slider .center .left .newslatter form {
-    width: 166px;
-    height: 15px;
-    background-color: #29aeb4;
-    margin: 10 20 10 20;
-    position: relative;
+  width: 166px;
+  height: 15px;
+  background-color: #29aeb4;
+  margin: 10 20 10 20;
+  position: relative;
 }
 
-.slider .center .left .newslatter form input[type=email] {
-    background-color: #29aeb4;
+.slider .center .left .newslatter form input[type="email"] {
+  background-color: #29aeb4;
 }
 
-.slider .center .left .newslatter form input[type=submit] {
-    display: none;
+.slider .center .left .newslatter form input[type="submit"] {
+  display: none;
 }
 
 .slider .center .left .newslatter form::after {
-    position: absolute;
-    width: 1px;
-    height: 10px;
-    content: "";
-    background-color: #169096;
-    top: 4px;
-    left: 25px;
+  position: absolute;
+  width: 1px;
+  height: 10px;
+  content: "";
+  background-color: #169096;
+  top: 4px;
+  left: 25px;
 }
 
 .slider .center .left .newslatter label {
-    display: block;
-    width: 40px;
-    height: 17px;
-    margin: 8 auto;
-    background-color: #fff;
-    cursor: pointer;
-    text-align: center;
-    font-size: 10px;
-    border-radius: 2px;
+  display: block;
+  width: 40px;
+  height: 17px;
+  margin: 8 auto;
+  background-color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 10px;
+  border-radius: 2px;
 }
 
 .line {
-    width: 1024px;
-    height: 5px;
+  width: 1024px;
+  height: 5px;
 
-    overflow: hidden;
-    background: url(./image/line.jpg) repeat;
-    margin: 20px auto 10px auto;
-
+  overflow: hidden;
+  background: url(./image/line.jpg) repeat;
+  margin: 20px auto 10px auto;
 }
 
 .order {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
 }
 
 .order .center {
-    width: 1024px;
-    height: 300px;
-    margin: 0 auto;
+  width: 1024px;
+  height: 300px;
+  margin: 0 auto;
 }
 
 .order .center .obtns {
-    width: 1024px;
-    height: 28px;
-    overflow: hidden;
+  width: 1024px;
+  height: 28px;
+  overflow: hidden;
 }
 
 .order .center .obtns ul {
-    list-style: none;
+  list-style: none;
 }
 
 .order .center .obtns ul li {
-    float: right;
+  float: right;
 }
 
 .order .center .obtns ul li a {
-    display: block;
-    min-width: 30px;
-    height: 16px;
-    background-color: #fff;
-    border: 1px solid #dad9d9;
-    border-radius: 8px;
-    margin: 0px 5px;
-    padding: 0px 5px;
-    font-size: 10px;
+  display: block;
+  min-width: 30px;
+  height: 16px;
+  background-color: #fff;
+  border: 1px solid #dad9d9;
+  border-radius: 8px;
+  margin: 0px 5px;
+  padding: 0px 5px;
+  font-size: 10px;
 }
 
 .order .center .obtns ul li :first-child a {
-    margin-right: 0;
+  margin-right: 0;
 }
 
 .order .center .obtns ul li a.active {
-    border: 1px solid #169096;
-    position: relative;
+  border: 1px solid #169096;
+  position: relative;
 }
 
 .order .center .obtns ul li a.active::after {
-    width: 0;
-    height: 0;
-    bottom: -10px;
-    left: 45%;
-    border-top: 5px solid #169096;
-    border-right: 5px solid transparent;
-    border-bottom: 5px solid transparent;
-    border-left: 5px solid transparent;
+  width: 0;
+  height: 0;
+  bottom: -10px;
+  left: 45%;
+  border-top: 5px solid #169096;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 5px solid transparent;
 }
 
 .order .center .olist {
-    width: 1024px;
-    height: 272px;
+  width: 1024px;
+  height: 272px;
 }
 
 .order .center .olist .groupbox {
-    width: 1024px;
-    height: 280px;
-    position: relative;
+  width: 1024px;
+  height: 280px;
+  position: relative;
 }
 
 .order .center .olist .groupbox .next {
-    width: 30px;
-    height: 80px;
-    position: absolute;
-    top: 100px;
-    right: -15px;
-    background-color: #fff;
-    overflow: hidden;
-    z-index: 999;
-    cursor: pointer;
-
-
-
+  width: 30px;
+  height: 80px;
+  position: absolute;
+  top: 100px;
+  right: -15px;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 999;
+  cursor: pointer;
 }
 
 .order .center .olist .groupbox .prev {
-    width: 30px;
-    height: 80px;
-    position: absolute;
-    top: 100px;
-    left: -1px;
-    background-color: #fff;
-    overflow: hidden;
-    z-index: 999;
-    cursor: pointer;
+  width: 30px;
+  height: 80px;
+  position: absolute;
+  top: 100px;
+  left: -1px;
+  background-color: #fff;
+  overflow: hidden;
+  z-index: 999;
+  cursor: pointer;
 }
 
 .order .center .olist .groupbox .next .icon {
-    width: 21px;
-    height: 26px;
-    background: url(./image/flash.png) no-repeat;
-    margin: 26px 6px;
-    transform: rotate(180deg);
+  width: 21px;
+  height: 26px;
+  background: url(./image/flash.png) no-repeat;
+  margin: 26px 6px;
+  transform: rotate(180deg);
 }
 
 .order .center .olist .groupbox .prev .icon {
-    width: 21px;
-    height: 26px;
-    background: url(./image/flash.png) no-repeat;
-    margin: 26px 6px;
+  width: 21px;
+  height: 26px;
+  background: url(./image/flash.png) no-repeat;
+  margin: 26px 6px;
 }
 
-
-
 .order .center .olist .groupbox ul {
-    list-style: none;
+  list-style: none;
 }
 
 .order .center .olist .groupbox ul li {
-    width: 190px;
-    height: 270px;
-    float: right;
-    overflow: hidden;
-    border: 2px solid #e8e8e8;
-    background-color: #fff;
-    margin: 0 10px 0 0;
+  width: 190px;
+  height: 270px;
+  float: right;
+  overflow: hidden;
+  border: 2px solid #e8e8e8;
+  background-color: #fff;
+  margin: 0 10px 0 0;
 }
 
 .order .center .olist .groupbox ul li:first-child {
-    margin: 0;
+  margin: 0;
 }
 
 .order .center .olist .groupbox ul li .image {
-    width: 182.8px;
-    height: 180px;
-    margin: 3px;
-    overflow: hidden;
-    position: relative;
-
+  width: 182.8px;
+  height: 180px;
+  margin: 3px;
+  overflow: hidden;
+  position: relative;
 }
 
-
 .center .olist .groupbox ul li .image .hoverbox {
-    width: 182.8px;
-    height: 182px;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.70);
-    position: absolute;
-    top: 0;
-    left: 0;
-    transition: 1s;
-    opacity: 0;
+  width: 182.8px;
+  height: 182px;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 1s;
+  opacity: 0;
 }
 
 .center .olist .groupbox ul li .image:hover .hoverbox {
-    opacity: 1;
+  opacity: 1;
 }
 
 .olist .groupbox ul li .image .hoverbox .childicon {
-    display: block;
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin: 80px 5px 0 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin: 80px 5px 0 0;
 }
 
 .olist .groupbox ul li .image .hoverbox .childicon1 {
-    margin: 80px 60px 0 0;
+  margin: 80px 60px 0 0;
 }
 
 .olist .groupbox ul li .image .hoverbox .childicon i.more {
-    display: block;
-    width: 23px;
-    height: 23px;
-    background: url(./image/more.jpg) no-repeat;
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: url(./image/more.jpg) no-repeat;
 }
 
 .olist .groupbox ul li .image .hoverbox .childicon i.addcard {
-    display: block;
-    width: 23px;
-    height: 23px;
-    background: url(./image/add.jpg) no-repeat;
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: url(./image/add.jpg) no-repeat;
 }
 
 .olist .groupbox ul li .image .hoverbox .childicon i.like {
-    display: block;
-    width: 23px;
-    height: 23px;
-    background: url(./image/like.jpg) no-repeat;
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: url(./image/like.jpg) no-repeat;
 }
 
 .olist .groupbox ul li .image img {
-    width: 182.8px;
-    height: 180px;
+  width: 182.8px;
+  height: 180px;
 }
 
 .order .center .olist .groupbox a.title {
-    display: block;
-    width: 182.8px;
-    overflow: hidden;
-    margin: 0 6px;
+  display: block;
+  width: 182.8px;
+  overflow: hidden;
+  margin: 0 6px;
 }
 
 .order .center .olist .groupbox a.title h2 {
-    font-size: 11px;
-    text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .order .center .olist .groupbox p {
-    width: 182.8px;
-    overflow: hidden;
-    margin: 0 6px;
-    text-align: center;
+  width: 182.8px;
+  overflow: hidden;
+  margin: 0 6px;
+  text-align: center;
 }
 
 .order .center .olist .groupbox p span.disprice {
-    font-size: 11px;
-    color: #adadad;
-    text-decoration: line-through;
+  font-size: 11px;
+  color: #adadad;
+  text-decoration: line-through;
 }
 
 .order .center .olist .groupbox p span.price {
-    font-size: 10px;
-    color: #69d2d6;
+  font-size: 10px;
+  color: #69d2d6;
 }
 
 .order .center .olist .groupbox a.mothericon {
-    display: block;
-    width: 20px;
-    height: 20px;
-    float: right;
-    margin: 5px 5px 0 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  float: right;
+  margin: 5px 5px 0 0;
 }
 
 .order .center .olist .groupBox ul li a.motherIcon1 {
-    margin: 5px 66.4px 0 0;
+  margin: 5px 66.4px 0 0;
 }
 
 .order .center .olist .groupbox a.mothericon i.more {
-    display: block;
-    width: 23px;
-    height: 23px;
-    background: url(./image/more.jpg) no-repeat;
-
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: url(./image/more.jpg) no-repeat;
 }
 
 .order .center .olist .groupbox a.mothericon i.addcard {
-    display: block;
-    width: 23px;
-    height: 23px;
-    background: url(./image/add.jpg) no-repeat;
-
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: url(./image/add.jpg) no-repeat;
 }
 
 .order .center .olist .groupbox a.mothericon i.like {
-    display: block;
-    width: 23px;
-    height: 23px;
-    background: url(./image/like.jpg) no-repeat;
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: url(./image/like.jpg) no-repeat;
 }
 
 .news {
-    width: 100%;
-    height: 285px;
-    overflow: hidden;
+  width: 100%;
+  height: 285px;
+  overflow: hidden;
 }
 
 .news .center {
-    width: 1024px;
-    height: 285px;
-    overflow: hidden;
-    margin: 0 auto;
+  width: 1024px;
+  height: 285px;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 .news .center .title {
-    width: 1022px;
-    height: 37px;
-    background-color: #fff;
-    border-radius: 10px;
-    overflow: hidden;
-    float: right;
-    border: 1px solid #e2e2e2;
-    border-bottom: 2px solid #e2e2e2;
+  width: 1022px;
+  height: 37px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  float: right;
+  border: 1px solid #e2e2e2;
+  border-bottom: 2px solid #e2e2e2;
 }
 
 .news .center .title .right {
-    width: 100px;
-    height: 37px;
-    float: right;
+  width: 100px;
+  height: 37px;
+  float: right;
 }
 
 .news .center .title .right i {
-    width: 18px;
-    height: 18px;
-    display: block;
-    background: url(./image/announcement2.jpg) no-repeat;
-    margin: 9.5px;
-    float: right;
+  width: 18px;
+  height: 18px;
+  display: block;
+  background: url(./image/announcement2.jpg) no-repeat;
+  margin: 9.5px;
+  float: right;
 }
 
 .news .center .title .right h3 {
-    font-size: 12px;
-    float: right;
-    margin-top: 3px;
+  font-size: 12px;
+  float: right;
+  margin-top: 3px;
 }
 
 .news .center .title .right h3 span {
-    color: #b2b2b2;
+  color: #b2b2b2;
 }
 
 .news .center .title .right h3 strong {
-    color: #ff642f;
+  color: #ff642f;
 }
 
 .news .center .title .right h5 {
-    font-size: 7px;
-    float: right;
-    color: #b2b2b2;
-
+  font-size: 7px;
+  float: right;
+  color: #b2b2b2;
 }
 
 .news .center .title a.more {
-    display: block;
-    float: left;
-    margin: 9.5px 0 0 9.5px;
-    color: #a4a4a4;
-    cursor: pointer;
-    font-size: 12px;
+  display: block;
+  float: left;
+  margin: 9.5px 0 0 9.5px;
+  color: #a4a4a4;
+  cursor: pointer;
+  font-size: 12px;
 }
 
 .news .center ul {
-    list-style-type: none;
+  list-style-type: none;
+  margin-top: 10px;
 }
 
 .news .center ul li {
-    width: 248.5px;
-    height: 235px;
-    float: right;
-    overflow: hidden;
-    margin: 0 10px 0 0;
+  width: 248.5px;
+  height: 235px;
+  float: right;
+  overflow: hidden;
+  margin: 5px 10px 0 0;
 }
-.news .center ul li:first-child{
-    margin: 0;
+.news .center ul li:first-child {
+  margin: 5px 0;
 }
 
 .news .center ul li img {
-    width: 248.5px;
-    height: 162px;
+  width: 248.5px;
+  height: 162px;
 
-    border: 1px solid #aaa;
-    border-radius: 3px;
-    float: right;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  float: right;
 }
 
-.news .center ul li a {}
+.news .center ul li a {
+  display: block;
+  width: 248.5px;
+  height: 20px;
+  float: right;
+  margin-top: 5px;
+}
 
-.news .center ul li a h2 {}
+.news .center ul li a h2 {
+  font-size: 10px;
+  color: #747474;
+  float: right;
+}
 
-.news .center ul li a span {}
+.news .center ul li a span {
+  float: left;
+  display: block;
+  background-color: #aaaaaa;
+  color: #fff;
+  margin: 0 40 0 0;
+  min-width: 30px;
+  height: 17px;
+  border-radius: 3px;
+  text-align: center;
+}
+.news .center ul li a:hover span {
+  background-color: #ff6a37;
+}
 
-.news .center ul li a span {}
-
-.news .center ul li p {}
+.news .center ul li p {
+  width: 246px;
+  height: 46px;
+  color: #aaaaaa;
+  float: right;
+  text-align: justify;
+  direction: ltr;
+  position: relative;
+  left: 65px;
+}
+.gifts {
+  width: 100%;
+  height: 190px;
+  overflow: hidden;
+}
+.gifts .center {
+  width: 1024px;
+  height: 190px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.gifts .center ul {
+  list-style-type: none;
+}
+.gifts .center ul li {
+  float: right;
+  width: 246px;
+  height: 120px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px 0px rgb(204, 203, 203);
+  overflow: hidden;
+  margin: 10px 5px;
+}
+.gifts .center ul li .images {
+  width: 100px;
+  height: 100px;
+  float: right;
+  margin: 10px;
+  overflow: hidden;
+}
+.gifts .center ul li .images img {
+  width: 100px;
+  height: 100px;
+}
+.gifts .center ul li .text {
+  float: right;
+  width: 116px;
+  height: 100px;
+  overflow: hidden;
+  margin: 10px 0 0 0;
+}
+.gifts .center ul li .text a.title {
+  display: block;
+  margin-top: 10px;
+}
+.gifts .center ul li .text a.title h2 {
+  font-size: 10px;
+  font-weight: bolder;
+  text-align: center;
+}
+.gifts .center ul li.text p {
+    margin: 0 5px;
+}
+.gifts .center ul li .text p strong {
+  font-size: 10px;
+  text-decoration: line-through;
+  color: #aaaaaa;
+  font-weight: normal;
+}
+.gifts .center ul li .text p span {
+  font-size: 10px;
+  color: #ff6a37;
+  font-weight: normal;
+}
+.gifts .center ul li .text a.motherIcon {}
+.gifts .center ul li.text a.motherIcon1 {
+}
+.gifts .center ul li.text a.motherIcon i.image {
+}
+.gifts .center ul li.text a.motherIcon i.addcard {
+}
+.gifts .center ul li.text a.motherIcon i.like {
+}
